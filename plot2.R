@@ -19,7 +19,7 @@ data <- subset(data, select=-c(Date,Time))
 
 # make sure the day of week labels appear in English
 Sys.setlocale(category="LC_TIME", locale="en_US.UTF-8")
-png(filename="plot2.png", width=480, height=480, units="px", bg="transparent")
+png(filename="plot2.png", width=480, height=480, units="px", bg="white")
 with(data, plot(datetime, 
                 Global_active_power, 
                 type="l", 

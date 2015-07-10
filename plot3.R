@@ -19,7 +19,7 @@ data <- subset(data, select=-c(Date,Time))
 
 # make sure the day of week labels appear in English
 Sys.setlocale(category="LC_TIME", locale="en_US.UTF-8")
-png(filename="plot3.png", width=480, height=480, units="px", bg="transparent")
+png(filename="plot3.png", width=480, height=480, units="px", bg="white")
 # just draw the axes and labels and stuff – no lines yet
 with(data, plot(datetime, 
                 Sub_metering_1, 
