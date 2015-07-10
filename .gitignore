@@ -1,0 +1,21 @@
+# History files
+.Rhistory
+.Rapp.history
+
+# Example code in package build process
+*-Ex.R
+
+# RStudio files
+.Rproj.user/
+.RData
+Rprof.out
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+.Rproj.user
+
+# Sublime files
+*.sublime-*
+
+household_power_consumption.txt
